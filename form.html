@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Rgstr.css"/>
+    </head>
+  <body>
+    <div class="formpage">
+        <div class='bar'> 
+       <ul class="bar-ul">
+        <li class="bar-li"><a href='intro.html'>About Us</a></li>
+         <li class="bar-li"><a href='courses.html'>Offered Courses</a></li> 
+       <li class="bar-li"><a href='form.html'>Form</a></li>
+        </ul>
+        </div><br><br>
+        <h1 align="center">Student Registration Form</h1><br>
+         <h2 align="center">FAR EASTERN University</h2>
+            <center><image src="logo2.png" width="83px" height="80px" ></center>
+           <center><table>
+                 <form action="/action_page.php"method="get">
+                    <tr>
+            <td>Student Name:
+                <br>
+                <input type="text" placeholder="First Name"> <input type="text" placeholder="Middle Name"> <input type="text" placeholder="Last Name"></td>
+                </tr>
+              </table>
+            <br>
+            <table>
+            <tr>
+             <td>ID NO:<br><input type="text"><td>Year: <br><input type="text"><td>Course: <br><input type="text"></td>
+            </tr>
+                 </table>
+                    <br>
+                    <table>
+                        <tr>
+                        <td>Guardian:<br><input type="text"><td>Contact No. <br><input type="number"><td>Email Address:<br><input type="text"></td>
+                        </tr>
+                            </table>
+                             <br>
+            
+            <table>
+            <tr>
+            <td>Birthday:<br>
+             <div class="month-12">
+
+            <select>
+                    <option value='1'>January</option>
+                    <option value='2'>February</option>
+                    <option value='3'>March</option>
+                    <option value='4'>April</option>
+                    <option value='5'>May</option>
+                    <option value='6'>June</option>
+                     <option value='7'>July</option>
+                     <option value='8'>August</option>
+                     <option value='9'>September</option>
+                     <option value='10'>October</option>
+                     <option value='11'>November</option>
+                     <option value='12'>December</option>
+                        </select>
+                 <input type="number" placeholder="Date">  <input type="number" placeholder="Year"></td>
+
+            </div>
+             </tr>
+             <table>
+                <tr>
+                  <td>Gender:<br><input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female</td>
+                </tr>
+                    </table>
+                     <br>
+                    </table></center>
+                    <br>
+                    
+                     <center><button type="button" onclick="reset()"><b>RESET</b></button>
+                    <button type="button" onclick="go();" id="button"><b>SUBMIT</b></button></center> <br>
+                    
+                     
+                         
+              </form>      
+       
+      </div>
+    </header>
+
+
+</div>
+</body>
+<script>
+  function go(){
+    alert("You have successfully submitted your form");
+  }
+</script>
+</html>
